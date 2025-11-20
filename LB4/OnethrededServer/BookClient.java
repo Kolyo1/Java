@@ -27,7 +27,7 @@ public class BookClient {
             });
             serverReader.setDaemon(true);
             serverReader.start();
-            
+
             String line;
             while (running) {
                 line = userInput.readLine();
